@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-GTRI-PRISM-Project-26eb91e2-893e-40ac-ad67-dc43d0aa5619</UserSecretsId>
+    <RootNamespace>GTRI-PRISM-Project</RootNamespace>
+    <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10" />
+  </ItemGroup>
+
+</Project>
