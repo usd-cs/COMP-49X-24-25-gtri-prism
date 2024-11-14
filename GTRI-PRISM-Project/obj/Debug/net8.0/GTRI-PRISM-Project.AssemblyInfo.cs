@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GTRI-PRISM-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3507558532519a54e734066247c19d2f6731c3a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99700bff4681d31789d430927ca33ebdbdc9360a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GTRI-PRISM-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GTRI-PRISM-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
