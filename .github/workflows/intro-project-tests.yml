@@ -4,16 +4,18 @@ name: Blazor Tests
   push:
     branches:
       - main
+      - unit-tests
   pull_request:
     branches:
       - main
+      - unit-tests
 
 jobs:
   build-and-test:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-latest, macos-latest]
+        os: [unbuntu-latest, windows-latest, macos-latest]
 
     steps:
       - name: Checkout repository
